@@ -8,9 +8,9 @@
 @import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./common.css');
+@import url('./stylesheet.css');
 
 :root {
-
   /* color: #242424;
   background-color: rgba(255, 255, 255, 0.87); */
 
@@ -18,12 +18,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
 
   /* natasha root */
-  --color-main: #0C0C0C;
-  --color-accent: #3350E9;
-  --color-background: #FBFBFB;
-  --color-cards: #F3F3F3;
-
+  --color-main: #0c0c0c;
+  --color-accent: #3350e9;
+  --color-background: #fbfbfb;
+  --color-cards: #f3f3f3;
 }
