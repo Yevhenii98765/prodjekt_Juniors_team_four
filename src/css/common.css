@@ -1,0 +1,45 @@
+.contaier {
+    width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .contaier {
+        width: 704px;
+        padding-left: 35px;
+        padding-right: 35px;
+
+    }
+}
+    
+
+.hero-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 38px; 
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+}
+
+.span-title {
+    color: #3350e9;
+}
+
+.main-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px; 
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.hero {
+    padding-bottom: 60px;
+}
+
+header {
+    padding-bottom: 60px;
+}
