@@ -1,0 +1,228 @@
+.sale-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+
+    margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-title {
+        font-size: 48px;
+        line-height: 0.92;
+
+        margin-bottom: 40px;
+    }
+}
+
+.sale-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 5px;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-list {
+        width: 704px;
+        height: 560px;
+        flex-direction: column;
+        gap: 10px 20px;
+
+        margin-bottom: 40px;
+    }
+}
+
+.sale-item {
+    background-color: #f3f3f3;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-item {
+        border-radius: 20px;
+
+        width: 132px;
+        height: 132px;
+    }
+}
+
+.sale-item:last-child {
+    border-radius: 30px;
+
+    width: 335px;
+    height: 385px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-item:last-child {
+        border-radius: 50px;
+
+        width: 552px;
+        height: 558px;
+    }
+}
+
+.sale-thumb {}
+
+.sale-image {
+    width: 100%;
+}
+
+.sale-card-overlay {
+    background-color: #3350e9;
+    border-radius: 30px;
+
+    width: 335px;
+    height: 561px;
+    padding: 48px 28px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-card-overlay {
+        border-radius: 50px;
+
+        width: 704px;
+        height: 518px;
+        padding: 60px;
+    }
+}
+
+.sale-card-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-card-title {
+        font-size: 32px;
+        line-height: 1.125;
+
+        width: 436px;
+    }
+}
+
+.sale-card-sub-title {
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+
+    margin-bottom: 20px;
+}
+
+.sale-card-price-tag {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    background-color: rgba(251, 251, 251, 0.1);
+    border-radius: 8px;
+
+    width: 68px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+
+    margin-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-card-price-tag {
+        font-size: 20px;
+        line-height: 1;
+
+        width: 78px;
+        margin-bottom: 30px;
+    }
+}
+
+.sale-card-discount-price-tag {
+    font-family: "Gilroy", sans-serif;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-card-description {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+
+    margin-bottom: 28px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-card-description {
+        font-size: 16px;
+        line-height: 1.25;
+
+        margin-bottom: 40px;
+    }
+}
+
+.sale-card-feature-tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 279px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-card-feature-tag-list {
+        width: 398px;
+    }
+}
+
+.sale-card-feature-tag-item {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+    outline: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+
+    max-width: 128px;
+    min-width: 58px;
+    height: 32px;
+    padding: 8px 12px;
+}
+
+@media only screen and (min-width: 768px) {
+    .sale-card-feature-tag-item {
+        font-size: 14px;
+        line-height: 1.29;
+
+        max-width: 145px;
+        min-width: 64px;
+        height: 34px;
+    }
+}
