@@ -15,13 +15,9 @@
 @import url('./footer.css');
 @import url('./stylesheet.css');
 @import url('./about.css');
-
-
+@import url('./contact-us.css');
 
 @import url('./hero.css');
-
-
-
 
 :root {
   /* color: #242424;
