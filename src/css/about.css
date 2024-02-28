@@ -17,6 +17,7 @@
     border-radius: 50px;
     margin-bottom: 40px;
   }
+
 }
 
 .mein-title {
@@ -32,6 +33,10 @@
   .mein-title {
     font-size: 48px;
     line-height: 92%;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    letter-spacing: -0.02em;
     margin-bottom: 40px;
   }
 }
@@ -96,4 +101,6 @@
   .img-about {
     border-radius: 50px;
   }
+}
+.img-about {
 }
