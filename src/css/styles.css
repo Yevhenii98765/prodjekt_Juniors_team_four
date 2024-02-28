@@ -6,10 +6,10 @@
 */
 
 @import url('./stylesheet.css');
+@import url('./vite-promo.css');
 @import url('./common.css');
 @import url('./reset.css');
 @import url('./header.css');
-@import url('./vite-promo.css');
 
 @import url('./common.css');
 @import url('./footer.css');
