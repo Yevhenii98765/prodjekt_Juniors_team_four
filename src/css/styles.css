@@ -4,12 +4,17 @@
   | default @import url()
   |============================
 */
+
+@import url('./stylesheet.css');
+@import url('./common.css');
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
+
+=======
 @import url('./common.css');
 @import url('./stylesheet.css');
 @import url('./about.css');
+
 
 
 :root {
