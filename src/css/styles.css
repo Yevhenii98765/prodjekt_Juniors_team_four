@@ -15,7 +15,13 @@
 @import url('./footer.css');
 @import url('./stylesheet.css');
 @import url('./about.css');
+<<<<<<< HEAD
 @import url('./contact-us.css');
+=======
+@import url('./sale.css');
+
+
+>>>>>>> main
 
 @import url('./hero.css');
 

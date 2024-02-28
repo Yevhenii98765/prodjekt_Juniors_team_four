@@ -24,19 +24,17 @@
   }
 }
 .contact-form {
-  width: 279px;
+  max-width: 279px;
 }
 .user-wrapper {
-  width: 279px;
+  width: 100%;
 }
-.user-input-wrapper {
-  width: 279px;
-}
+
 .input-common {
-  width: 279px;
+  width: 100%;
 }
 .user-comment-wrapper {
-  width: 279px;
+  width: 100%;
 }
 .form-textarea {
   width: 279px;

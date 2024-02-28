@@ -1,0 +1,132 @@
+.sale-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+
+    margin-bottom: 24px;
+}
+
+.sale-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 5px;
+
+    margin-bottom: 20px;
+}
+
+.sale-item {
+    background-color: #f3f3f3;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-item:last-child {
+    border-radius: 30px;
+
+    width: 335px;
+    height: 385px;
+}
+
+.sale-thumb {}
+
+.sale-image {}
+
+.sale-card-overlay {
+    background-color: #3350e9;
+    border-radius: 30px;
+
+    width: 335px;
+    height: 561px;
+    padding: 48px 28px;
+}
+
+.sale-card-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+
+    margin-bottom: 10px;
+}
+
+.sale-card-sub-title {
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+
+    margin-bottom: 20px;
+}
+
+.sale-card-price-tag {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    background-color: rgba(251, 251, 251, 0.1);
+    border-radius: 8px;
+
+    width: 68px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+
+    margin-bottom: 28px;
+}
+
+.sale-card-discount-price-tag {
+    font-family: "Gilroy", sans-serif;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-card-description {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+
+    margin-bottom: 28px;
+}
+
+.sale-card-feature-tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sale-card-feature-tag-item {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+    outline: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+
+    max-width: 128px;
+    min-width: 58px;
+    height: 32px;
+    padding: 8px 12px;
+}
