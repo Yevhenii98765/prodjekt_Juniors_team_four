@@ -14,7 +14,7 @@
       <path d="M15.992 19.976a4.004 4.004 0 1 0 0-8.009 4.004 4.004 0 0 0 0 8.009z" opacity=".8" style="fill:var(--color1, #fbfbfb)"/>
     </symbol>
     <symbol id="icon-menu" viewBox="0 0 64 32">
-      <path stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.714" d="M2.857 4.667h58.286M2.857 27.333h58.286"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="5.714" d="M2.857 4.667h58.286M2.857 27.333h58.286"/>
     </symbol>
 </defs>
 </svg>
