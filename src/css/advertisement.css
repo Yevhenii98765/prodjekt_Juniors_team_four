@@ -1,17 +1,89 @@
 /* Advertisement section */
+
 .advertisement {
   background: #0c0c0c;
   border-radius: 30px;
-  width: 1150px;
-  height: 298px;
+  max-width: 335px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  background-image: url(../img/article/article-mobile@1x.webp);
+
+  padding: 60px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: column;
+  gap: 28px;
+}
+
+@media screen and (max-width: 375px) {
+  .advertisement {
+    margin: 0 20px;
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  .advertisement {
+    background-image: url(../img/article/article-mobile@2x.webp);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement {
+    background-image: url(../img/article/article-tablet@1x.webp);
+    max-width: 768px;
+    justify-content: center;
+    margin: 0 32px;
+    padding: 80px 64px;
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .advertisement {
+    background-image: url(../img/article/article-tablet@2x.webp);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    background-image: url(../img/article/article-desktop@1x.webp);
+    flex-direction: row;
+    max-width: 1150px;
+    margin: 0 65px;
+    padding: 80px 80px;
+    gap: 140px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .advertisement {
+    background-image: url(../img/article/article-desktop@2x.webp);
+  }
 }
 
 .p-advertisement {
   font-weight: 600;
-  font-size: 48px;
-  line-height: 0.92;
+  font-size: 32px;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .p-advertisement {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .p-advertisement {
+    margin: 3px 0;
+  }
 }
 
 .span-second-lvl-title {
@@ -19,14 +91,27 @@
 }
 
 .to-contact-scroll-btn {
-  width: 160px;
+  min-width: 160px;
   height: 48px;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
   background-color: transparent;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   text-align: center;
   color: #fbfbfb;
+  margin-right: auto;
+}
+
+.to-contact-scroll-btn:hover,
+.to-contact-scroll-btn:focus {
+  color: #0c0c0c;
+  background: #fbfbfb;
+}
+
+@media screen and (min-width: 1280px) {
+  .to-contact-scroll-btn {
+    transform: translateY(-43px);
+  }
 }
