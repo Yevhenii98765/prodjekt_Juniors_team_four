@@ -1,42 +1,48 @@
+body {
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
+  background-color: #fff;
+}
+
 .hide {
-    display: none;
-  }
-  
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-  
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  
+  display: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
   .container {
-    min-width: 320px;
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
+    width: 768px;
+    padding: 0 32px;
   }
-  
-  @media screen and (min-width: 768px) {
-    .container {
-      width: 768px;
-      padding: 0 32px;
-    }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 65px;
   }
-  
-  @media screen and (min-width: 1280px) {
-    .container {
-      width: 1280px;
-      padding: 0 65px;
-    }
-  }
+
   
   section {
     padding: 30px 0;
@@ -61,3 +67,49 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
+
+}
+
+.section {
+  padding: 30px 0;
+}
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .section {
+    padding: 50px 0;
+  }
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 38px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+
+.span-title {
+  color: #3350e9;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.hero {
+  padding-bottom: 60px;
+}
+
+header {
+  padding-bottom: 60px;
+}
+
