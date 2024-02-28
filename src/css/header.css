@@ -1,0 +1,73 @@
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  flex-shrink: 0;
+  padding: 0 15px;
+}
+header {
+  display: flex;
+}
+.container-flex {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding-right: 203px;
+}
+.header-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #0c0c0c;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  display: block;
+  position: relative;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+.ul-team {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+  justify-content: center;
+  margin-left: 203px;
+}
+.li-team {
+  width: 36px;
+  height: 36px;
+}
+.a-team {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 8px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+.right-content {
+  margin-right: unset;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  min-width: 288px;
+}
