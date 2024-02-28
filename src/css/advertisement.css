@@ -1,0 +1,32 @@
+/* Advertisement section */
+.advertisement {
+  background: #0c0c0c;
+  border-radius: 30px;
+  width: 1150px;
+  height: 298px;
+}
+
+.p-advertisement {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.span-second-lvl-title {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.to-contact-scroll-btn {
+  width: 160px;
+  height: 48px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+}
