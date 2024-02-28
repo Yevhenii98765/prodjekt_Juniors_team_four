@@ -1,9 +1,3 @@
-.container {
-  margin: 0 auto;
-  width: 1280px;
-  flex-shrink: 0;
-  padding: 0 15px;
-}
 header {
   display: flex;
 }
@@ -62,6 +56,7 @@ header {
   align-items: center;
   justify-content: center;
   opacity: 0.8;
+  background-color: #0c0c0c;
 }
 .right-content {
   margin-right: unset;
