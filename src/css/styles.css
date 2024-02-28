@@ -4,11 +4,12 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
-@import url('./common.css');
+
 @import url('./stylesheet.css');
+@import url('./common.css');
+@import url('./reset.css');
+@import url('./header.css');
+
 
 :root {
   /* color: #242424;
