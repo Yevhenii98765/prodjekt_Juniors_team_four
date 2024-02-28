@@ -1,9 +1,10 @@
-header {
-  display: flex;
+.burger-button {
+  display: none;
 }
 .container-flex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .navigation {
   display: flex;
@@ -15,7 +16,6 @@ header {
   font-size: 20px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  padding-right: 203px;
 }
 .header-link {
   font-family: 'Gilroy', sans-serif;
@@ -28,6 +28,7 @@ header {
   padding-bottom: 26px;
   display: block;
   position: relative;
+  text-wrap: nowrap;
 }
 .nav-list {
   display: flex;
@@ -37,26 +38,27 @@ header {
 .ul-team {
   display: flex;
   list-style-type: none;
-  gap: 24px;
+  gap: 10px;
   justify-content: center;
-  margin-left: 203px;
 }
 .li-team {
   width: 36px;
   height: 36px;
-}
-.a-team {
-  width: 100%;
-  height: 100%;
+  border: 1px solid rgba(12, 12, 12, 0.1);
   border-radius: 10px;
   padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-team {
+  border-radius: 10px;
   width: 20px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0.8;
-  background-color: #0c0c0c;
 }
 .right-content {
   margin-right: unset;
@@ -64,5 +66,43 @@ header {
   flex-direction: column;
   justify-content: center;
   display: flex;
-  min-width: 288px;
+}
+.svg-team {
+  stroke: #0c0c0c;
+}
+
+/* Burger Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+  transition: transform 300ms ease-out;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: ;
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+  transition-timing-function: ease-in;
+}
+.menu-btn {
+  position: absolute;
+  top: 24px;
+  right: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+.mobile-menu-icon {
+  stroke-width: 3px;
+  stroke: #fbfbfb;
+}
+.mobile-menu-list {
+  margin-bottom: auto;
 }
