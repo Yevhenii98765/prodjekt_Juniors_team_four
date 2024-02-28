@@ -51,6 +51,21 @@
   align-items: center;
   justify-content: center;
 }
+.active-link {
+  position: relative;
+}
+.active-link::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #3350e9;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .a-team {
   border-radius: 10px;
   width: 20px;
