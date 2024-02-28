@@ -25,14 +25,41 @@
   }
 }
 .revievs-title {
+  margin-bottom: 24px;
+  align-items: flex-start;
 }
 .revives-list {
 }
-.reviev-title {
+.revievs-item {
+  border-radius: 100%;
+  stroke-width: 2px;
+  stroke: #fbfbfb;
+  margin-bottom: 24px;
+  border-radius: 30px;
+  padding: 32px 36px;
+  width: 335px;
+  height: 262px;
+  background: #f3f3f3;
 }
 .revievs-hero {
+  margin: 0 auto 24px;
 }
 .revievs-name {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+  margin-bottom: 8px;
 }
 .revives-text {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
 }
