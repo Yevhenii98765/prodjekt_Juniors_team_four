@@ -1,5 +1,11 @@
 /* Reset styles */
 
+body {
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
+  background-color: #fff;
+}
+
 h1,
 h2,
 h3,
