@@ -1,0 +1,38 @@
+.container {
+  width: 375px;
+  min-width: 320px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    max-width: 768px;
+    min-width: 704px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    max-width: 1200px;
+    min-width: 1070;
+    padding: 0 65px;
+  }
+}
+.revievs-title {
+}
+.revives-list {
+}
+.reviev-title {
+}
+.revievs-hero {
+}
+.revievs-name {
+}
+.revives-text {
+}
