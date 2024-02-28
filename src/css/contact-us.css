@@ -37,20 +37,16 @@
   width: 100%;
 }
 .form-textarea {
+  border: 1px solid rgba(12, 12, 12, 0.15);
+  border-radius: 12px;
+  padding: 12px 136px 54px 14px;
   width: 279px;
-  height: 120px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
+  height: 84px;
   background-color: transparent;
-  padding: 0;
   outline: transparent;
   resize: none;
 
-  margin-top: 4px;
+  margin-top: 18px;
 }
 .contact-button {
 }
