@@ -32,8 +32,17 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
+<<<<<<< Updated upstream
     width: 768px;
     padding: 0 32px;
+=======
+    min-width: 320px;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    
+>>>>>>> Stashed changes
   }
 }
 
