@@ -33,20 +33,17 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    max-width: 768px;
-    min-width: 704px;
+    max-width: 704px;
     padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
-    max-width: 1200px;
-    min-width: 1070;
+    max-width: 1150px;
     padding: 0 65px;
   }
+}
 
   
   section {
@@ -71,8 +68,6 @@ body {
   line-height: 32px; 
   letter-spacing: -0.02em;
   color: #0c0c0c;
-}
-
 }
 
 .section {
