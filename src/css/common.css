@@ -33,6 +33,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
+    width: 100%;
     max-width: 704px;
     padding: 0 32px;
   }
@@ -40,6 +41,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
+    width: 100%;
     max-width: 1150px;
     padding: 0 65px;
   }
@@ -58,12 +60,12 @@ body {
     padding: 50px 0;
   }
 }
-    
+
 .main-title {
-  font-family: "Gilroy", sans-serif;
+  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 32px;
-  line-height: 32px; 
+  line-height: 32px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
@@ -110,4 +112,3 @@ body {
 header {
   padding-bottom: 60px;
 }
-
