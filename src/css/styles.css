@@ -9,6 +9,7 @@
 @import url('./header.css');
 @import url('./common.css');
 @import url('./stylesheet.css');
+@import url('./catalog.css');
 
 :root {
   /* color: #242424;
