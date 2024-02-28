@@ -30,16 +30,13 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 100%;
-    max-width: 704px;
-    padding: 0 32px;
+    max-width: 736px;
+    padding: 0 16px;
   }
 }
 @media screen and (min-width: 1168px) {
   .container {
-    width: 100%;
-    max-width: 1150px;
-    padding: 0 65px;
+    max-width: 1168px;
   }
 }
 
