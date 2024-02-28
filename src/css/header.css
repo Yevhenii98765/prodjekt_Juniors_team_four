@@ -85,7 +85,52 @@
 .svg-team {
   stroke: #0c0c0c;
 }
-
+/* Mobile Header */
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    padding: 20px 0px 0px 0px;
+  }
+  .container-flex {
+    justify-content: space-between;
+  }
+  .nav-list {
+    display: none;
+  }
+  .ul-team {
+    display: none;
+  }
+  .burger-button {
+    background-color: transparent;
+    border: none;
+    display: block;
+    stroke-width: 2.5px;
+    stroke: #0c0c0c;
+  }
+}
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    padding: 26px 0px 0px 0px;
+  }
+  .container-flex {
+    justify-content: space-between;
+  }
+  .nav-list {
+    display: none;
+  }
+  .ul-team {
+    display: none;
+  }
+  .burger-button {
+    width: 34px;
+    height: 16px;
+    background-color: transparent;
+    border: none;
+    display: block;
+    stroke-width: 3px;
+    stroke: #0c0c0c;
+  }
+}
 /* Burger Menu */
 .mobile-menu {
   position: fixed;
