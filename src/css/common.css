@@ -1,3 +1,9 @@
+body {
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
+  background-color: #fff;
+}
+
 .hide {
   display: none;
 }
@@ -17,6 +23,7 @@
 }
 
 .container {
+  width: 375px;
   min-width: 320px;
   max-width: 375px;
   margin-left: auto;
@@ -27,6 +34,9 @@
 @media screen and (min-width: 768px) {
   .container {
     min-width: 768px;
+    width: 768px;
+    max-width: 768px;
+    min-width: 704px;
     padding: 0 32px;
   }
 }
@@ -36,6 +46,42 @@
     min-width: 1280px;
     padding: 0 65px;
   }
+}
+
+.section {
+  padding: 30px 0;
+}
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .section {
+    padding: 50px 0;
+  }
+  section {
+    padding: 30px 0;
+  }
+@media only screen and (min-width: 768px) {
+  section {
+      padding: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+    section {
+      padding: 50px 0;
+  }
+}
+    
+.main-title {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px; 
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
 }
 
 .section {
@@ -80,3 +126,4 @@
 header {
   padding-bottom: 60px;
 }
+
