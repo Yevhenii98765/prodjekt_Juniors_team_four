@@ -1,10 +1,11 @@
 @media only screen and (min-width: 768px) {
   .wrap {
+    display: block;
     width: 704px;
   }
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1280px) {
   .wrap {
     display: flex;
     gap: 40px;
@@ -28,7 +29,7 @@
   }
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1280px) {
   .box-about {
     width: 580px;
     margin-bottom: 0;
@@ -66,7 +67,7 @@
   }
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1280px) {
   .box-text-about {
     margin-bottom: 40px;
   }
@@ -106,26 +107,30 @@
 .box-about-img {
   min-width: 320px;
   max-width: 355px;
+  max-height: 446px;
 }
 
 @media only screen and (min-width: 768px) {
   .box-about-img {
     max-width: 704px;
+    max-height: 512px;
   }
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1280px) {
+  .box-about-img {
+    max-width: 530px;
+    max-height: 532px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
   .box-about-img {
     max-width: 530px;
   }
 }
 
 .img-about {
-  border-radius: 30px;
-}
-
-@media only screen and (min-width: 768px) {
-  .img-about {
-    border-radius: 50px;
-  }
+  width: 100%;
+  height: auto;
 }
