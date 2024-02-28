@@ -33,19 +33,41 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
+<<<<<<< HEAD
     max-width: 704px;
+=======
+    min-width: 768px;
+    width: 768px;
+    max-width: 768px;
+    min-width: 704px;
+>>>>>>> 8d73c1a406d406ab444bf266269c63a426ed4f11
     padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
+<<<<<<< HEAD
     max-width: 1150px;
+=======
+    min-width: 1280px;
+>>>>>>> 8d73c1a406d406ab444bf266269c63a426ed4f11
     padding: 0 65px;
   }
 }
 
-  
+.section {
+  padding: 30px 0;
+}
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .section {
+    padding: 50px 0;
+  }
   section {
     padding: 30px 0;
   }

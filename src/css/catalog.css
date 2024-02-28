@@ -1,0 +1,135 @@
+/* Section catalog */
+
+.second-lvl-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .second-lvl-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-list {
+    row-gap: 32px;
+    column-gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog-list {
+    column-gap: 23px;
+  }
+}
+
+.catalog-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  background: #f3f3f3;
+  padding: 41px 28px 23px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .catalog-item:nth-child(5) {
+    display: none;
+  }
+  .catalog-item:last-child {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-item {
+    padding: 34px 32px 23px;
+    width: calc((100% - 16px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog-item {
+    width: calc((100% - 23px * 2) / 3);
+  }
+}
+
+.description-thumb {
+  margin-right: auto;
+}
+
+.picture {
+  padding-top: 10px;
+}
+
+.third-lvl-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin: 28px 0 8px;
+
+  height: 18px;
+  overflow-y: scroll;
+  /* text-overflow: ellipsis; */
+}
+
+@media screen and (min-width: 768px) {
+  .third-lvl-title {
+    font-size: 20px;
+    line-height: 1;
+    margin: 20px 0 8px;
+  }
+}
+
+.p-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.catalog-btn {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto 0;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-btn {
+    display: none;
+  }
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  background: #1f3cd4;
+}
