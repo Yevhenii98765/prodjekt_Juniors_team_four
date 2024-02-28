@@ -42,6 +42,32 @@ body {
     width: 1280px;
     padding: 0 65px;
   }
+
+  
+  section {
+    padding: 30px 0;
+  }
+@media only screen and (min-width: 768px) {
+  section {
+      padding: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+    section {
+      padding: 50px 0;
+  }
+}
+    
+.main-title {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px; 
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
 }
 
 .section {
@@ -86,3 +112,4 @@ body {
 header {
   padding-bottom: 60px;
 }
+
