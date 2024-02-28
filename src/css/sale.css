@@ -1,0 +1,48 @@
+.sale-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+.sale-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sale-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-item:not(:last-child) {
+    flex-basis: calc((100% - 15px) / 4);
+}
+
+.sale-thumb {}
+
+.sale-image {}
+
+.sale-card-overlay {}
+
+.sale-card-title {}
+
+.sale-card-sub-title {}
+
+.sale-card-price-tag {}
+
+.sale-card-discount-price-tag {}
+
+.sale-card-description {}
+
+.sale-card-feature-tag-list {}
+
+.sale-card-feature-tag {}
