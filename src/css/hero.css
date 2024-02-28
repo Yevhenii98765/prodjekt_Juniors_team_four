@@ -1,0 +1,21 @@
+
+.hero-link {
+display: flex;
+justify-content: flex-end;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: var(--color-main);
+
+transition: color 300ms ease;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+ color: var (--color-accent);  
+}
+
