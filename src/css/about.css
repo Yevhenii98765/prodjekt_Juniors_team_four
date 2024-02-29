@@ -102,10 +102,15 @@
   border-radius: 16px;
   border: none;
   background-color: var(--color-accent);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-about:hover {
+  background-color: #1f3cd4;
 }
 
 .box-about-img {
-  min-width: 320px;
+  min-width: 280px;
   max-width: 355px;
   max-height: 446px;
 }
