@@ -28,8 +28,7 @@
 
 @media only screen and (min-width: 768px) {
     .sale-list {
-        width: 704px;
-        height: 560px;
+        max-height: 590px;
         flex-direction: column;
         gap: 10px 20px;
 
@@ -42,9 +41,9 @@
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
 
-    width: 80px;
-    height: 80px;
+    padding: 13px 14px;
     display: flex;
+    flex-basis: calc((100% - 15px) / 4);
     justify-content: center;
     align-items: center;
 }
@@ -53,24 +52,24 @@
     .sale-item {
         border-radius: 20px;
 
-        width: 132px;
-        height: 132px;
+        max-width: 132px;
+        padding: 16px 18px;
     }
 }
 
 .sale-item:last-child {
     border-radius: 30px;
 
-    width: 335px;
-    height: 385px;
+    min-width: 100%;
+    padding: 50px;
 }
 
 @media only screen and (min-width: 768px) {
     .sale-item:last-child {
         border-radius: 50px;
 
-        width: 552px;
-        height: 558px;
+        min-width: 552px;
+        padding: 80px 112px;
     }
 }
 
@@ -78,23 +77,26 @@
 
 .sale-image {
     width: 100%;
+    height: auto;
 }
 
 .sale-card-overlay {
     background-color: #3350e9;
     border-radius: 30px;
+    min-width: 280px;
+    padding: 14.4% 8.4%;
+}
 
-    width: 335px;
-    height: 561px;
-    padding: 48px 28px;
+@media only screen and (min-width: 375px) {
+    .sale-card-overlay {
+        padding: 48px 28px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .sale-card-overlay {
         border-radius: 50px;
 
-        width: 704px;
-        height: 518px;
         padding: 60px;
     }
 }
@@ -139,14 +141,19 @@
     background-color: rgba(251, 251, 251, 0.1);
     border-radius: 8px;
 
-    width: 68px;
-    height: 32px;
+    padding: 2.87% 4.3%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin-right: 9px;
 
     margin-bottom: 28px;
+}
+
+@media only screen and (min-width: 375px) {
+    .sale-card-price-tag {
+        padding: 8px 12px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -192,13 +199,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    width: 279px;
+    min-width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
-    .sale-card-feature-tag-list {
-        width: 398px;
-    }
+    .sale-card-feature-tag-list {}
 }
 
 .sale-card-feature-tag-item {
@@ -210,9 +215,9 @@
     outline: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
 
-    max-width: 128px;
-    min-width: 58px;
-    height: 32px;
+    max-width: 46%;
+    min-width: 21%;
+    height: auto;
     padding: 8px 12px;
 }
 
@@ -220,9 +225,5 @@
     .sale-card-feature-tag-item {
         font-size: 14px;
         line-height: 1.29;
-
-        max-width: 145px;
-        min-width: 64px;
-        height: 34px;
     }
 }
