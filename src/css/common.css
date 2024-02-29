@@ -31,12 +31,13 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 736px;
-    padding: 0 16px;
+    padding: 0 32x;
   }
 }
 @media screen and (min-width: 1168px) {
   .container {
     max-width: 1168px;
+    padding: 0 65x;
   }
 }
 
@@ -94,12 +95,10 @@ body {
 .main-text {
   font-weight: 500;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.28571;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
 
 
-header {
-  padding-bottom: 60px;
-}
+
