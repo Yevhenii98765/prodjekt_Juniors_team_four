@@ -3,6 +3,7 @@
 }
 header {
   border-bottom: 1px solid #0c0c0c;
+  height: 88px;
 }
 .mobile-menu {
   display: none;
@@ -11,6 +12,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: inherit;
 }
 .navigation {
   display: flex;
@@ -91,25 +93,9 @@ header {
 }
 /* Mobile Header */
 @media (min-width: 320px) and (max-width: 767px) {
-  .container-flex {
-    justify-content: space-between;
+  header {
+    height: 74px;
   }
-  .nav-list {
-    display: none;
-  }
-  .ul-team {
-    display: none;
-  }
-  .burger-button {
-    background-color: transparent;
-    border: none;
-    display: block;
-    stroke-width: 2.5px;
-    stroke: #0c0c0c;
-  }
-}
-/* Tablet View */
-@media (min-width: 768px) and (max-width: 1280px) {
   .container-flex {
     justify-content: space-between;
   }
@@ -121,7 +107,33 @@ header {
   }
   .burger-button {
     width: 34px;
-    height: 16px;
+    height: 34px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    display: block;
+    stroke-width: 2.5px;
+    stroke: #0c0c0c;
+  }
+}
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1280px) {
+  header {
+    height: 92px;
+  }
+  .container-flex {
+    justify-content: space-between;
+  }
+  .nav-list {
+    display: none;
+  }
+  .ul-team {
+    display: none;
+  }
+  .burger-button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
     background-color: transparent;
     border: none;
     display: block;
