@@ -17,6 +17,22 @@
 @import url('./catalog.css');
 @import url('./advertisement.css');
 @import url('./sale.css');
-@import url('./reviews.css');
-@import url('./contact-us.css');
-@import url('./footer.css');
+@import url('./revies.css');
+@import url('./hero.css');
+
+:root {
+  /* color: #242424;
+  background-color: rgba(255, 255, 255, 0.87); */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  /* natasha root */
+  --color-main: #0c0c0c;
+  --color-accent: #3350e9;
+  --color-background: #fbfbfb;
+  --color-cards: #f3f3f3;
+}
