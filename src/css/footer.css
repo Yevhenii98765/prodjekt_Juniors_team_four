@@ -1,5 +1,12 @@
-footer {
+
+.wrap {
     background-color: var(--color-main);
+    border-radius: 30px;
+    padding: 40px 28px 28px 28px;
+}
+
+.left-footer {
+    margin-bottom: 20px;
 }
 
 .logo-footer {
@@ -30,4 +37,63 @@ footer {
 
 .footer-svg {
     fill: var(--color-background);
+}
+
+.right-footer {
+    margin-bottom: 40px;
+}
+
+.nomber-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px; 
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;
+    width: 152px;
+    height: 44px;
+    padding: 14px 20px;
+}
+
+.wrap-title-footer {
+    margin-bottom: 92px;
+}
+
+.title-footer {
+    max-width: 279px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px; 
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.footer-type {
+    max-width: 147px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px; 
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.link-right {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px; 
+    color: #fbfbfb;
+}
+
+.last-footer {
+    display: flex;
+    justify-content: space-around;
 }
