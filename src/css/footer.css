@@ -1,6 +1,6 @@
 
-.wrap {
-    background-color: var(--color-main);
+.footer-wrap {
+    background-color:  #0c0c0c;
     border-radius: 30px;
     padding: 40px 28px 28px 28px;
 }
@@ -14,7 +14,7 @@
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
-    color: var(--color-background);
+    color:  #0c0c0c;
     display: block;
     margin-bottom: 20px;
 }
@@ -36,7 +36,7 @@
 }
 
 .footer-svg {
-    fill: var(--color-background);
+    fill:  #fbfbfb;
 }
 
 .right-footer {
