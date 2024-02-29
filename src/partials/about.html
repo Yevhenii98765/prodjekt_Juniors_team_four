@@ -1,8 +1,8 @@
-<section>
+<section class="section">
   <div class="container">
     <div class="wrap">
       <div class="box-about">
-        <h2 class="mein-title">About Us</h2>
+        <h2 class="mein-title" id="section-about-us">About Us</h2>
         <div class="box-text-about">
           <p class="text-about top">
             Welcome to our premium watch collection, where luxury and style meet
@@ -18,12 +18,14 @@
             than the best?
           </p>
         </div>
-        <button class="button-about" type="button" id="">View catalog</button>
+        <button class="button-about" type="button">
+          <a href="#catalog">View catalog</a>
+        </button>
       </div>
       <div class="box-about-img">
         <picture>
           <source
-            media="(min-width:320px) and (max-width:767px)"
+            media="(max-width:767px)"
             srcset="
               ./img/about/watch-mobile@1x.webp 1x,
               ./img/about/watch-mobile@2x.webp 2x
