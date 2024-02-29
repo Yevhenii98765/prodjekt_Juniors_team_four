@@ -38,6 +38,7 @@
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .advertisement {
     background-image: url(../img/article/article-tablet@2x.webp);
+    margin: 0 auto;
   }
 }
 

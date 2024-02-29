@@ -87,9 +87,6 @@
 }
 /* Mobile Header */
 @media (min-width: 320px) and (max-width: 767px) {
-  .container {
-    padding: 20px 0px 0px 0px;
-  }
   .container-flex {
     justify-content: space-between;
   }
@@ -109,9 +106,6 @@
 }
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 1280px) {
-  .container {
-    padding: 26px 0px 0px 0px;
-  }
   .container-flex {
     justify-content: space-between;
   }
