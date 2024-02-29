@@ -87,9 +87,6 @@
 }
 /* Mobile Header */
 @media (min-width: 320px) and (max-width: 767px) {
-  .container {
-    padding: 20px 0px 0px 0px;
-  }
   .container-flex {
     justify-content: space-between;
   }
