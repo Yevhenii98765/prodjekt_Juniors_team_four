@@ -9,12 +9,30 @@
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+    .left-footer {
+        margin-bottom: 0;
+    }
+    
+  }
+
+
+@media screen and (min-width: 768px) {
+    .up-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 86px;
+    }
+  }
+
+
 .logo-footer {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
-    color:  #0c0c0c;
+    color:  #fbfbfb;
     display: block;
     margin-bottom: 20px;
 }
@@ -71,12 +89,32 @@
     color: #fbfbfb;
 }
 
+@media screen and (min-width: 768px) {
+    .title-footer {
+        max-width: 524px;
+        font-size: 28px;
+        line-height: 32px; 
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+  }
+
+
 .footer-type {
     max-width: 147px;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
 }
+
+@media screen and (min-width: 768px) {
+    .footer-type  {
+        max-width: 403px;
+        gap: 19px;
+    }
+  }
+
 
 .nav-link {
     font-weight: 500;
@@ -86,14 +124,50 @@
     color: #fbfbfb;
 }
 
-.link-right {
+@media screen and (min-width: 768px) {
+    .nav-link  {
+        font-size: 14px;
+        line-height: 18px; 
+    }
+  }
+
+.rigt-text {
+    max-width: 83px;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px; 
     color: #fbfbfb;
 }
 
+@media screen and (min-width: 768px) {
+    .rigt-text  {
+        max-width: 162px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+  }
+
 .last-footer {
     display: flex;
     justify-content: space-around;
+    border-bottom: 1px solid rgba(251, 251, 251, 0.1) ;
+    padding-bottom: 24px;
+}
+
+.bot-footer-one {
+    margin-bottom: 8px;
+    padding-top: 24px;
+}
+
+.bot-footer-tow {
+    display: flex;
+    gap: 20px;
+}
+
+.bot-footer-text {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px; 
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
 }
