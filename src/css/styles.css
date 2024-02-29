@@ -10,20 +10,14 @@
 @import url('./common.css');
 @import url('./reset.css');
 @import url('./header.css');
-
-@import url('./common.css');
-@import url('./footer.css');
-@import url('./stylesheet.css');
-@import url('./catalog.css');
+@import url('./hero.css');
 @import url('./about.css');
-
-@import url('./sale.css');
-
+@import url('./catalog.css');
 @import url('./advertisement.css');
 @import url('./sale.css');
-
 @import url('./revies.css');
-@import url('./hero.css');
+@import url('./contact-us.css');
+@import url('./footer.css');
 
 :root {
   /* color: #242424;
