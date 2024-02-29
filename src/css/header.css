@@ -1,0 +1,123 @@
+.burger-button {
+  display: none;
+}
+.container-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.header-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: #0c0c0c;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  display: block;
+  position: relative;
+  text-wrap: nowrap;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+.ul-team {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  justify-content: center;
+}
+.li-team {
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(12, 12, 12, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.active-link {
+  position: relative;
+}
+.active-link::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #3350e9;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.a-team {
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+.right-content {
+  margin-right: unset;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.svg-team {
+  stroke: #0c0c0c;
+}
+
+/* Burger Menu */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(100%);
+  transition: transform 300ms ease-out;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: ;
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+  transition-timing-function: ease-in;
+}
+.menu-btn {
+  position: absolute;
+  top: 24px;
+  right: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+.mobile-menu-icon {
+  stroke-width: 3px;
+  stroke: #fbfbfb;
+}
+.mobile-menu-list {
+  margin-bottom: auto;
+}

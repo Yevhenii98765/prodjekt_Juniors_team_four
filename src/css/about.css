@@ -4,6 +4,15 @@
   }
 }
 
+@media only screen and (min-width: 1128px) {
+  .wrap {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 1150px;
+  }
+}
+
 .box-about {
   padding: 40px 20px;
   border-radius: 30px;
@@ -17,7 +26,13 @@
     border-radius: 50px;
     margin-bottom: 40px;
   }
+}
 
+@media only screen and (min-width: 1128px) {
+  .box-about {
+    width: 580px;
+    margin-bottom: 0;
+  }
 }
 
 .mein-title {
@@ -48,6 +63,12 @@
 @media only screen and (min-width: 768px) {
   .box-text-about {
     margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1128px) {
+  .box-text-about {
+    margin-bottom: 40px;
   }
 }
 
@@ -93,6 +114,12 @@
   }
 }
 
+@media only screen and (min-width: 1128px) {
+  .box-about-img {
+    max-width: 530px;
+  }
+}
+
 .img-about {
   border-radius: 30px;
 }
@@ -101,6 +128,4 @@
   .img-about {
     border-radius: 50px;
   }
-}
-.img-about {
 }
