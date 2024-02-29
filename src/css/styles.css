@@ -19,6 +19,10 @@
 
 @import url('./sale.css');
 
+@import url('./advertisement.css');
+@import url('./sale.css');
+
+@import url('./revies.css');
 @import url('./hero.css');
 
 :root {
