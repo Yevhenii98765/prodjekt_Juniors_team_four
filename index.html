@@ -12,7 +12,7 @@
   
 
   <script type="module" crossorigin src="/prodjekt_Juniors_team_four/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/prodjekt_Juniors_team_four/assets/index-ed93d996.css">
+  <link rel="stylesheet" href="/prodjekt_Juniors_team_four/assets/index-fdf1fe0d.css">
 </head>
 
 <body>
@@ -161,7 +161,6 @@
   </header>
   <main>
     <!-- #region Hero -->
-    <section class="hero">
       <!-- #region Hero -->
 <div class="container">
   <div class="hero-content">
@@ -323,9 +322,41 @@
 </div>
 <!-- #endregion Hero -->
 
-    </section>
     <!-- #endregion Hero -->
-    <section>
+      <div class="container">
+    <div class="wrap">
+        <div class="box-about">
+            <h2 class="mein-title">About Us</h2>
+            <div class="box-text-about">
+                <p class="text-about top">Welcome to our premium watch collection, where luxury and style meet
+                    functionality
+                    and precision. Our selection of
+                    timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll
+                    always have a reliable
+                    and stylish accessory on your wrist.</p>
+
+                <p class="text-about">At our premium watch collection, we believe that a watch is more than just a
+                    timekeeping device – it's a statement piece
+                    that reflects your personality and style. So why settle for anything less than the best?</p>
+            </div>
+            <button class="button-about" type="button" id="">View catalog</button>
+        </div>
+        <div class="box-about-img">
+            <picture>
+                <source media="(min-width:320px) and (max-width:767px)"
+                    srcset="../img/about/watch-mobile@1x.webp 1x, ../img/about/watch-mobile@2x.webp 2x">
+                <source media="(min-width:768px) and (max-width:1279px)"
+                    srcset="../img/about/watch-tablet@1x.webp 1x, ../img/about/watch-tablet@2x.webp 2x">
+                <source media="(min-width:1280px)"
+                    srcset="../img/about/watch-desktop@1x.webp 1x, ../img/about/watch-desktop@2x.webp 2x">
+                <img class="img-about" src="../img/about/watch-mobile@1x.webp 1x" alt="photo with wristwatch"
+                    width="704" height="512" loading="lazy">
+            </picture>
+        </div>
+    </div>
+</div>
+
+
       <section class="catalog section">
     <div class="container">
         <h2 class="second-lvl-title">Catalog</h2>
@@ -421,42 +452,6 @@
 
     </div>
 </section>
-      <div class="container">
-    <div class="wrap">
-        <div class="box-about">
-            <h2 class="mein-title">About Us</h2>
-            <div class="box-text-about">
-                <p class="text-about top">Welcome to our premium watch collection, where luxury and style meet
-                    functionality
-                    and precision. Our selection of
-                    timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll
-                    always have a reliable
-                    and stylish accessory on your wrist.</p>
-
-                <p class="text-about">At our premium watch collection, we believe that a watch is more than just a
-                    timekeeping device – it's a statement piece
-                    that reflects your personality and style. So why settle for anything less than the best?</p>
-            </div>
-            <button class="button-about" type="button" id="">View catalog</button>
-        </div>
-        <div class="box-about-img">
-            <picture>
-                <source media="(min-width:320px) and (max-width:767px)"
-                    srcset="../img/about/watch-mobile@1x.webp 1x, ../img/about/watch-mobile@2x.webp 2x">
-                <source media="(min-width:768px) and (max-width:1279px)"
-                    srcset="../img/about/watch-tablet@1x.webp 1x, ../img/about/watch-tablet@2x.webp 2x">
-                <source media="(min-width:1280px)"
-                    srcset="../img/about/watch-desktop@1x.webp 1x, ../img/about/watch-desktop@2x.webp 2x">
-                <img class="img-about" src="../img/about/watch-mobile@1x.webp 1x" alt="photo with wristwatch"
-                    width="704" height="512" loading="lazy">
-            </picture>
-        </div>
-    </div>
-</div>
-
-
-    </section>
-    <section>
       <section class="section">
     <div class="advertisement container">
         <h2 class="visually-hidden">Advertisement Section</h2>
@@ -467,9 +462,6 @@
             us</button>
     </div>
 </section>
-      
-    </section>
-    <section>
       <div class="container">
     <h2 class="sale-title">Sale</h2>
     <ul class="sale-list">
@@ -555,7 +547,84 @@
         </ul>
     </div>
 </div>
-    </section>
+      
+      <div class="container contact-us-container">
+    <h2 class="main-title">Contact Us</h2>
+    <div class="form-div">
+        <div class="form-container">
+            <p class="main-text">Please use the form below to contact us. Enter your name, email, phone, and message and
+                we'll get back to you shortly.</p>
+            <form class="contact-form">
+
+                <div class="user-wrapper">
+                    <label for="user-name"></label>
+
+                    <input class="input-common" name="user-name" id="user-name" type="text" placeholder="Name" />
+
+
+
+                </div>
+                <div class="user-wrapper">
+                    <label for="user-email"></label>
+
+                    <input class="input-common" name="user-email" id="user-email" type="email" placeholder="Email" />
+
+
+                </div>
+        </div>
+        <div class="user-wrapper">
+            <label for="user-phone"></label>
+
+            <input class="input-common" name="user-phone" id="user-phone" type="tel" placeholder="+380" />
+
+
+        </div>
+
+
+        <div class="user-comment-wrapper">
+            <label for="user-comment"></label>
+            <textarea class="form-textarea" name="user-comment" id="user-comment" cols="30" rows="10"
+                placeholder="Comment"></textarea>
+        </div>
+
+        </form>
+
+
+
+
+        <button class="contact-button" type="submit">Send</button>
+    </div>
+</div>
+
+
+<div class="img-box">
+    <picture>
+        <source media="(min-width:1280px)"
+            srcset="../img/contact/watch-desktop@1x.webp 1x, ../img/contact/watch-desktop@2x.webp 2x" />
+        <source media="(min-width:768px)"
+            srcset="../img/contact/watch-tablet@1x.webp 1x, ../img/contact/watch-tablet@2x.webp 2x" />
+        <source media="(max-width:767px)"
+            srcset="../img/contact/watch-mobile@1x.webp 1x, ../img/contact/watch-mobile@2x.webp 2x" />
+        <img src="../img/contact/watch-desktop@1x.webp" alt="Watch with logo Sun" width="530" />
+    </picture>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
   </main>
   <footer id="footer">
     <div class="container">
