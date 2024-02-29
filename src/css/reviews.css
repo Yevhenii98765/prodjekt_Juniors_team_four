@@ -1,50 +1,38 @@
-.container {
-  width: 375px;
-  min-width: 320px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
+section {
+  padding: 30px 0;
 }
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    max-width: 768px;
-    min-width: 704px;
-    padding: 0 32px;
+@media only screen and (min-width: 768px) {
+  section {
+    padding: 40px 0;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    max-width: 1200px;
-    min-width: 1070;
-    padding: 0 65px;
+@media only screen and (min-width: 1280px) {
+  section {
+    padding: 50px 0;
   }
 }
-.revievs-title {
+.reviews-title {
   margin-bottom: 24px;
   align-items: flex-start;
 }
-.revives-list {
+.reviews-list {
 }
-.revievs-item {
+.reviews-item {
   border-radius: 100%;
   stroke-width: 2px;
   stroke: #fbfbfb;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   border-radius: 30px;
   padding: 32px 36px;
   width: 335px;
   height: 262px;
   background: #f3f3f3;
 }
-.revievs-hero {
+.reviews-hero {
   margin: 0 auto 24px;
 }
-.revievs-name {
+.reviews-name {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -54,7 +42,7 @@
   color: #0c0c0c;
   margin-bottom: 8px;
 }
-.revives-text {
+.reviews-text {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;

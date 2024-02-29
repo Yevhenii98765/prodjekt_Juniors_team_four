@@ -1,0 +1,33 @@
+footer {
+    background-color: var(--color-main);
+}
+
+.logo-footer {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: var(--color-background);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-type-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-svg-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 34px;
+    height: 34px;
+}
+
+.footer-svg {
+    fill: var(--color-background);
+}
