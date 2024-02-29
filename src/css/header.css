@@ -1,6 +1,12 @@
 .burger-button {
   display: none;
 }
+header {
+  border-bottom: 1px solid #0c0c0c;
+}
+.mobile-menu {
+  display: none;
+}
 .container-flex {
   display: flex;
   align-items: center;
@@ -11,14 +17,12 @@
   align-items: center;
 }
 .logo {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
 .header-link {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -131,37 +135,105 @@
     stroke: #0c0c0c;
   }
 }
-/* Burger Menu */
-.mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  transform: translateX(100%);
-  transition: transform 300ms ease-out;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+/* Burger Mobile-Menu */
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: transform 300ms ease-out;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 310px 128px 50px 101px;
+    background-image: url(../img/menu/mobile-menu@1x.webp);
+  }
+  .mobile-menu.is-open {
+    transform: translateX(0);
+    transition-timing-function: ease-in;
+  }
+  .menu-btn {
+    position: absolute;
+    top: 26px;
+    right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+  }
+  .mobile-menu-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .mobile-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+  }
+  .mobile-menu-icon {
+    stroke-width: 3px;
+    stroke: #fbfbfb;
+  }
+  .mobile-menu-list {
+    margin-bottom: auto;
+  }
+  .mobile-menu-socials {
+    gap: 10px;
+  }
 }
-.mobile-menu.is-open {
-  transform: translateX(0);
-  transition-timing-function: ease-in;
-}
-.menu-btn {
-  position: absolute;
-  top: 24px;
-  right: 36px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
-}
-.mobile-menu-icon {
-  stroke-width: 3px;
-  stroke: #fbfbfb;
-}
-.mobile-menu-list {
-  margin-bottom: auto;
+/* Burger Tublet-Menu */
+@media (min-width: 768px) and (max-width: 1280px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: transform 300ms ease-out;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 310px 128px 50px 101px;
+    background-image: url(../img/menu/tablet-menu@1x.webp);
+  }
+  .mobile-menu.is-open {
+    transform: translateX(0);
+    transition-timing-function: ease-in;
+  }
+  .menu-btn {
+    position: absolute;
+    top: 26px;
+    right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+  }
+  .mobile-menu-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .mobile-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+  }
+  .mobile-menu-icon {
+    stroke-width: 3px;
+    stroke: #fbfbfb;
+  }
+  .mobile-menu-list {
+    margin-bottom: auto;
+  }
+  .mobile-menu-socials {
+    gap: 10px;
+  }
 }
