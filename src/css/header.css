@@ -1,24 +1,30 @@
 .burger-button {
   display: none;
 }
+header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  height: 88px;
+}
+.mobile-menu {
+  display: none;
+}
 .container-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: inherit;
 }
 .navigation {
   display: flex;
   align-items: center;
 }
 .logo {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
 .header-link {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -28,7 +34,6 @@
   padding-bottom: 26px;
   display: block;
   position: relative;
-  text-wrap: nowrap;
 }
 .nav-list {
   display: flex;
@@ -87,16 +92,19 @@
 }
 /* Mobile Header */
 @media (min-width: 320px) and (max-width: 767px) {
+  header {
+    height: 74px;
+  }
   .container-flex {
     justify-content: space-between;
   }
   .nav-list {
     display: none;
   }
-  .ul-team {
-    display: none;
-  }
   .burger-button {
+    width: 34px;
+    height: 34px;
+    padding: 0;
     background-color: transparent;
     border: none;
     display: block;
@@ -106,8 +114,8 @@
 }
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 1280px) {
-  .container {
-    padding: 26px 0px 0px 0px;
+  header {
+    height: 92px;
   }
   .container-flex {
     justify-content: space-between;
@@ -115,12 +123,10 @@
   .nav-list {
     display: none;
   }
-  .ul-team {
-    display: none;
-  }
   .burger-button {
-    width: 34px;
-    height: 16px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
     background-color: transparent;
     border: none;
     display: block;
@@ -128,37 +134,228 @@
     stroke: #0c0c0c;
   }
 }
-/* Burger Menu */
-.mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  transform: translateX(100%);
-  transition: transform 300ms ease-out;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+/* Burger Mobile-Menu */
+@media (min-width: 320px) and (max-width: 767px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: transform 300ms ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)
+      ),
+      url(../img/menu/mobile-menu@1x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .ul-team {
+    display: none;
+  }
+  .mobile-menu::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .mobile-content {
+    z-index: 1;
+  }
+  .mobile-menu.is-open {
+    transform: translateX(0);
+    transition-timing-function: ease-in;
+  }
+  .menu-btn {
+    position: absolute;
+    top: 26px;
+    right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+  }
+  .mobile-menu-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .active-link::before {
+    bottom: -10px;
+  }
+  .mobile-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+  }
+  .mobile-menu-icon {
+    stroke-width: 3px;
+    stroke: #fbfbfb;
+    width: 20px;
+    height: 20px;
+  }
+  .mobile-menu-list {
+    margin-bottom: 24px;
+  }
+  .mobile-menu-socials {
+    gap: 10px;
+  }
+  .svg-team {
+    fill: #fbfbfb;
+    width: 18px;
+    height: 18px;
+  }
+  .a-team-burger {
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 34px;
+    height: 34px;
+  }
+  .ul-team-burger {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
-.mobile-menu.is-open {
-  transform: translateX(0);
-  transition-timing-function: ease-in;
+@media (min-width: 320px) and (min-resolution: 192dpi) {
+  .mobile-menu {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)
+      ),
+      url(../img/menu/mobile-menu@2x.webp);
+  }
 }
-.menu-btn {
-  position: absolute;
-  top: 24px;
-  right: 36px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background-color: transparent;
+/* Burger Tublet-Menu */
+@media (min-width: 768px) and (max-width: 1280px) {
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: transform 300ms ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)
+      ),
+      url(../img/menu/tablet-menu@1x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .ul-team {
+    display: none;
+  }
+  .mobile-menu::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .mobile-content {
+    z-index: 1;
+  }
+  .active-link::before {
+    bottom: -10px;
+  }
+  .mobile-menu.is-open {
+    transform: translateX(0);
+    transition-timing-function: ease-in;
+  }
+  .menu-btn {
+    position: absolute;
+    top: 26px;
+    right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+  }
+  .mobile-menu-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .mobile-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+  }
+  .mobile-menu-icon {
+    stroke-width: 3px;
+    stroke: #fbfbfb;
+    width: 24px;
+    height: 24px;
+  }
+  .mobile-menu-list {
+    margin-bottom: 32px;
+  }
+  .mobile-menu-socials {
+    gap: 10px;
+  }
+  .svg-team {
+    fill: #fbfbfb;
+    width: 20px;
+    height: 20px;
+  }
+  .a-team-burger {
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+  }
+  .ul-team-burger {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
-.mobile-menu-icon {
-  stroke-width: 3px;
-  stroke: #fbfbfb;
-}
-.mobile-menu-list {
-  margin-bottom: auto;
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+  .mobile-menu {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.92),
+        rgba(12, 12, 12, 0.92)
+      ),
+      url(../img/menu/tablet-menu@2x.webp);
+  }
 }

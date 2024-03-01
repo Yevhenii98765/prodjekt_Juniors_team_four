@@ -12,6 +12,7 @@ section {
     padding: 50px 0;
   }
 }
+
 .reviews-title {
   font-family: 'Gilroy', sans-serif;
   font-weight: 600;
@@ -22,29 +23,72 @@ section {
   margin-bottom: 24px;
   align-items: flex-start;
 }
-.reviews-list {
+
+@media only screen and (min-width: 768px) and (max-width: 1279.98px) {
+  .reviews-list {
+    display: flex;
+    gap: 16px;
+  }
 }
+
+@media only screen and (min-width: 1280px) {
+  .reviews-list {
+    display: flex;
+    gap: 20px;
+  }
+}
+
 .reviews-item {
   border-radius: 100%;
   stroke-width: 2px;
   stroke: #fbfbfb;
   border-radius: 30px;
   padding: 32px 36px;
-  width: 335px;
+  width: 100%;
   height: 262px;
   background: #f3f3f3;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews-item {
+    border-radius: 30px;
+    padding: 32px 36px;
+    height: 272px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .reviews-item {
+    border-radius: 30px;
+    padding: 32px 36px;
+    height: 272px;
+  }
 }
 
 .offimage-one {
   display: none;
 }
 
+@media only screen and (min-width: 768px) {
+  .offimage-one {
+    display: block;
+  }
+}
+
 .offimage-two {
   display: none;
 }
+
+@media only screen and (min-width: 1280px) {
+  .offimage-two {
+    display: block;
+  }
+}
+
 .reviews-hero {
   margin: 0 auto 24px;
 }
+
 .reviews-name {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
@@ -55,6 +99,7 @@ section {
   color: #0c0c0c;
   margin-bottom: 8px;
 }
+
 .reviews-text {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;

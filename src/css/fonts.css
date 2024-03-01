@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-font-face {
+@font-face {
   font-family: 'Gilroy';
   src: url('../fonts/Gilroy-Semibold.eot');
   src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
