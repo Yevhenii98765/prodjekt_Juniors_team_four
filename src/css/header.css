@@ -220,20 +220,29 @@ header {
   }
   .svg-team {
     fill: #fbfbfb;
-    width: 18px;
-    height: 18px;
+    width: 36px;
+    height: 36px;
   }
   .a-team-burger {
-    border: 1px solid rgba(251, 251, 251, 0.1);
-    border-radius: 10px;
     padding: 8px;
     width: 34px;
     height: 34px;
+  }
+  .li-team-burger {
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(159, 154, 154, 0.2);
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .ul-team-burger {
     justify-content: center;
     align-items: center;
     display: flex;
+    gap: 10px;
     position: absolute;
     list-style-type: none;
     bottom: 40px;
@@ -333,20 +342,29 @@ header {
   }
   .svg-team {
     fill: #fbfbfb;
-    width: 20px;
-    height: 20px;
+    width: 36px;
+    height: 36px;
   }
   .a-team-burger {
-    border: 1px solid rgba(251, 251, 251, 0.1);
-    border-radius: 10px;
     padding: 8px;
     width: 36px;
     height: 36px;
+  }
+  .li-team-burger {
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(159, 154, 154, 0.2);
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .ul-team-burger {
     justify-content: center;
     align-items: center;
     display: flex;
+    gap: 10px;
     position: absolute;
     bottom: 40px;
     left: 50%;
