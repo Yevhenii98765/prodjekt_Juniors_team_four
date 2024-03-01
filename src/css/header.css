@@ -137,6 +137,9 @@ header {
     stroke-width: 3px;
     stroke: #0c0c0c;
   }
+  .ul-team {
+    display: none;
+  }
 }
 /* Burger Mobile-Menu */
 @media (min-width: 320px) and (max-width: 767px) {
@@ -161,9 +164,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
-  .ul-team {
-    display: none;
   }
   .mobile-menu::before {
     content: '';
