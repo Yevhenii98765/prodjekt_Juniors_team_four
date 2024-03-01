@@ -222,11 +222,6 @@ header {
     width: 36px;
     height: 36px;
   }
-  .a-team-burger {
-    padding: 8px;
-    width: 34px;
-    height: 34px;
-  }
   .ul-team-burger {
     justify-content: center;
     align-items: center;
@@ -237,6 +232,11 @@ header {
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
+  }
+  .a-team-burger {
+    padding: 8px;
+    width: 34px;
+    height: 34px;
   }
   .li-team-burger {
     width: 36px;
