@@ -1,25 +1,25 @@
-<header class="header">
+<header>
   <div class="container container-flex">
     <a href="./index.html" class="logo">watchcharm</a>
     <nav class="navigation">
       <ul class="nav-list">
         <li class="nav-list__item">
-          <a href="" class="header-link active-link">Home</a>
+          <a href="#section-home" class="header-link active-link">Home</a>
         </li>
         <li class="nav-list__item">
-          <a href="" class="header-link">About Us</a>
+          <a href="#section-about-us" class="header-link">About Us</a>
         </li>
         <li class="nav-list__item">
-          <a href="" class="header-link">Catalog</a>
+          <a href="#section-catalog" class="header-link">Catalog</a>
         </li>
         <li class="nav-list__item">
-          <a href="" class="header-link">Sale</a>
+          <a href="#section-sale" class="header-link">Sale</a>
         </li>
         <li class="nav-list__item">
-          <a href="" class="header-link">Reviews</a>
+          <a href="#reviewsid" class="header-link">Reviews</a>
         </li>
         <li class="nav-list__item">
-          <a href="" class="header-link">Contact Us</a>
+          <a href="#section-contact-us" class="header-link">Contact Us</a>
         </li>
       </ul>
     </nav>
@@ -27,8 +27,9 @@
       <ul class="ul-team">
         <li class="li-team">
           <a
+            aria-label="open-facebook"
             class="a-team"
-            href="https://facebook.com"
+            href="https://www.facebook.com/goITclub/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,8 +40,9 @@
         </li>
         <li class="li-team">
           <a
+            aria-label="open-instagram"
             class="a-team"
-            href="https://instagram.com"
+            href="https://www.instagram.com/goitclub/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,8 +53,9 @@
         </li>
         <li class="li-team">
           <a
+            aria-label="open-youtube"
             class="a-team"
-            href="https://youtube.com"
+            href="https://www.youtube.com/c/GoIT"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -63,7 +66,7 @@
         </li>
       </ul>
     </div>
-    <button class="burger-button" type="button">
+    <button aria-label="button-open-menu" class="burger-button" type="button">
       <svg class="burger-svg" width="34" height="34">
         <use href="./img/icons.svg#icon-menu"></use>
       </svg>
@@ -71,70 +74,74 @@
   </div>
 </header>
 
-<!-- <div class="mobile-menu">
-  <button class="menu-btn">
-    <svg class="mobile-menu-icon" width="20" height="20">
-      <use href="./img/icons.svg#icon-menu"></use>
-    </svg>
-  </button>
-  <ul class="mobile-menu-list">
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link active" href="index.html">Home</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="index.html">About Us</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="index.html">Catalog</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="index.html">Sale</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="index.html">Reviews</a>
-    </li>
-    <li class="mobile-menu-item">
-      <a class="mobile-menu-link" href="index.html">Contact Us</a>
-    </li>
-  </ul>
+<div class="mobile-menu">
+  <div class="mobile-content">
+    <button class="menu-btn">
+      <svg class="mobile-menu-icon" width="40" height="40">
+        <use href="./img/icons.svg#icon-x"></use>
+      </svg>
+    </button>
+    <ul class="mobile-menu-list">
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link active-link" href="#section-home">Home</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#section-about-us">About Us</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#section-catalog">Catalog</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#section-sale">Sale</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#reviewsid">Reviews</a>
+      </li>
+      <li class="mobile-menu-item">
+        <a class="mobile-menu-link" href="#section-contact-us">Contact Us</a>
+      </li>
+    </ul>
 
-  <ul class="mobile-menu-socials socials"></ul>
-  <ul class="ul-team">
-    <li class="li-team">
-      <a
-        class="a-team"
-        href="https://facebook.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <svg class="svg-team" width="20" height="20">
-          <use href="./img/icons.svg#icon-facebook"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="li-team">
-      <a
-        class="a-team"
-        href="https://instagram.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <svg class="svg-team" width="20" height="20">
-          <use href="./img/icons.svg#icon-instagram"></use>
-        </svg>
-      </a>
-    </li>
-    <li class="li-team">
-      <a
-        class="a-team"
-        href="https://youtube.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <svg class="svg-team" width="16" height="16">
-          <use href="./images/icons.svg#icon-linkedin"></use>
-        </svg>
-      </a>
-    </li>
-  </ul>
-</div> -->
+    <ul class="ul-team-burger">
+      <li class="li-team-burger">
+        <a
+          aria-label="open-facebook"
+          class="a-team"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="svg-team" width="36" height="36">
+            <use href="./img/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="li-team-burger">
+        <a
+          aria-label="open-instagram"
+          class="a-team"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="svg-team" width="36" height="36">
+            <use href="./img/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="li-team-burger">
+        <a
+          aria-label="open-youtube"
+          class="a-team"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="svg-team" width="36" height="36">
+            <use href="./img/icons.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
