@@ -1,12 +1,21 @@
 footer {
     padding-bottom: 20px;
+    padding-top: 30px;
 }
 
 @media screen and (min-width: 768px) {
-    .footer {
+    footer {
         padding-bottom: 32px;
+        padding-top: 40px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    footer {
+       padding-top: 50px;
+    }
+  }
+
 
 @media screen and (min-width: 1280px) {
     footer .container {
