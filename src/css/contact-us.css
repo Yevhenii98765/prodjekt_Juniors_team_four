@@ -52,7 +52,7 @@
 }
 
 .form-div {
-  background-color: var(--color-background);
+  background-color: var(--color-cards);
   border-radius: 30px;
   padding: 48px 28px;
 }
