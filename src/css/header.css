@@ -227,16 +227,6 @@ header {
     width: 34px;
     height: 34px;
   }
-  .li-team-burger {
-    width: 36px;
-    height: 36px;
-    border: 1px solid rgba(159, 154, 154, 0.2);
-    border-radius: 10px;
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   .ul-team-burger {
     justify-content: center;
     align-items: center;
@@ -247,6 +237,16 @@ header {
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
+  }
+  .li-team-burger {
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(159, 154, 154, 0.2);
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (min-width: 320px) and (min-resolution: 192dpi) {
