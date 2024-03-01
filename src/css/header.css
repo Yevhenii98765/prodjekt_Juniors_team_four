@@ -92,7 +92,7 @@ header {
   stroke: #0c0c0c;
 }
 /* Mobile Header */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   header {
     height: 74px;
   }
@@ -112,9 +112,12 @@ header {
     stroke-width: 2.5px;
     stroke: #0c0c0c;
   }
+  .ul-team {
+    display: none;
+  }
 }
 /* Tablet View */
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (max-width: 1280px) {
   header {
     height: 92px;
   }
