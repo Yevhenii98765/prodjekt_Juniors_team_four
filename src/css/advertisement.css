@@ -1,7 +1,7 @@
 /* Advertisement section */
 
 .advertisement {
-  background: #0c0c0c;
+  background: var(--color-main);
   border-radius: 30px;
   max-width: 335px;
   height: auto;
@@ -63,7 +63,7 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #fbfbfb;
+  color: var(--color-background);
 }
 
 @media screen and (min-width: 768px) {
@@ -80,27 +80,27 @@
 }
 
 .span-second-lvl-title {
-  color: rgba(251, 251, 251, 0.5);
+  color: #fbfbfb80;
 }
 
 .to-contact-scroll-btn {
   min-width: 160px;
   height: 48px;
-  border: 1px solid rgba(251, 251, 251, 0.15);
+  border: 1px solid #fbfbfb26;
   border-radius: 16px;
   background-color: transparent;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   text-align: center;
-  color: #fbfbfb;
+  color: var(--color-background);
   margin-right: auto;
 }
 
 .to-contact-scroll-btn:hover,
 .to-contact-scroll-btn:focus {
-  color: #0c0c0c;
-  background: #fbfbfb;
+  color: var(--color-main);
+  background: var(--color-background);
 }
 
 @media screen and (min-width: 1280px) {
