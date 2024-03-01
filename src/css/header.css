@@ -91,7 +91,7 @@ header {
   stroke: #0c0c0c;
 }
 /* Mobile Header */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   header {
     height: 74px;
   }
@@ -111,9 +111,12 @@ header {
     stroke-width: 2.5px;
     stroke: #0c0c0c;
   }
+  .ul-team {
+    display: none;
+  }
 }
 /* Tablet View */
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (max-width: 1280px) {
   header {
     height: 92px;
   }
@@ -132,6 +135,9 @@ header {
     display: block;
     stroke-width: 3px;
     stroke: #0c0c0c;
+  }
+  .ul-team {
+    display: none;
   }
 }
 /* Burger Mobile-Menu */
@@ -157,9 +163,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
-  .ul-team {
-    display: none;
   }
   .mobile-menu::before {
     content: '';
@@ -216,12 +219,10 @@ header {
   }
   .svg-team {
     fill: #fbfbfb;
-    width: 18px;
-    height: 18px;
+    width: 36px;
+    height: 36px;
   }
   .a-team-burger {
-    border: 1px solid rgba(251, 251, 251, 0.1);
-    border-radius: 10px;
     padding: 8px;
     width: 34px;
     height: 34px;
@@ -230,11 +231,22 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
+    gap: 10px;
     position: absolute;
     list-style-type: none;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
+  }
+  .li-team-burger {
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(159, 154, 154, 0.2);
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (min-width: 320px) and (min-resolution: 192dpi) {
@@ -329,20 +341,29 @@ header {
   }
   .svg-team {
     fill: #fbfbfb;
-    width: 20px;
-    height: 20px;
+    width: 36px;
+    height: 36px;
   }
   .a-team-burger {
-    border: 1px solid rgba(251, 251, 251, 0.1);
-    border-radius: 10px;
     padding: 8px;
     width: 36px;
     height: 36px;
+  }
+  .li-team-burger {
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(159, 154, 154, 0.2);
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .ul-team-burger {
     justify-content: center;
     align-items: center;
     display: flex;
+    gap: 10px;
     position: absolute;
     bottom: 40px;
     left: 50%;
