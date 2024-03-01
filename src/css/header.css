@@ -34,7 +34,6 @@ header {
   padding-bottom: 26px;
   display: block;
   position: relative;
-  text-wrap: nowrap;
 }
 .nav-list {
   display: flex;

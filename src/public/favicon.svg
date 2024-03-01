@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="4" y="4" width="36" height="36" rx="18" fill="#3350E9"/>
 <rect x="2" y="2" width="40" height="40" rx="20" stroke="#3350E9" stroke-opacity="0.2" stroke-width="4"/>
 <path d="M24.74 24.16L26.44 18H29.18L26 28H23.54L21.7 21.94L19.86 28H17.4L14.22 18H16.96L18.66 24.14L20.48 18H22.92L24.74 24.16Z" fill="#FBFBFB"/>
+=======
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+     <symbol id="icon-UserTesting" viewBox="0 0 32 32">
+      <path fill="#3350e9" d="M16 2.909c7.23 0 13.091 5.861 13.091 13.091S23.23 29.091 16 29.091C8.77 29.091 2.909 23.23 2.909 16S8.77 2.909 16 2.909z" style="fill:var(--color1, #3350e9)"/>
+      <path fill="none" stroke="#3350e9" stroke-width="2.909" d="M16 1.455c8.033 0 14.545 6.512 14.545 14.545S24.033 30.545 16 30.545C7.967 30.545 1.455 24.033 1.455 16S7.967 1.455 16 1.455z" style="stroke:var(--color1, #3350e9)"/>
+      <path fill="#fbfbfb" d="m17.993 17.571 1.236-4.48h1.993l-2.313 7.273H17.12l-1.338-4.407-1.338 4.407h-1.789l-2.313-7.273h1.993l1.236 4.465 1.324-4.465h1.775l1.324 4.48z" style="fill:var(--color2, #fbfbfb)"/>
+    </symbol>
+</defs>
+>>>>>>> main
 </svg>
