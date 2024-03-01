@@ -177,6 +177,7 @@ header {
     z-index: 1;
   }
   .mobile-menu.is-open {
+    z-index: 3;
     transform: translateX(0);
     transition-timing-function: ease-in;
   }
