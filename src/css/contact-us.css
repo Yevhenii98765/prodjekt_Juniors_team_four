@@ -3,7 +3,7 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
+  color: var(--color-main);
   margin-bottom: 24px;
   display: block;
 }
@@ -52,10 +52,8 @@
 }
 
 .form-div {
-  background: #f3f3f3;
-
+  background-color: var(--color-background);
   border-radius: 30px;
-
   padding: 48px 28px;
 }
 
@@ -101,13 +99,13 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
-  color: #0c0c0c;
+  color: var(--color-main);
 }
 .input-common::placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
-  color: #0c0c0c;
+  color: var(--color-main);
 }
 @media (min-width: 768px) {
   .input-common {
@@ -122,7 +120,7 @@
 }
 .input-common:checked,
 .input-common:focus {
-  border: 1px solid #3350e9;
+  border: 1px solid var(--color-accent);
 }
 .user-comment-wrapper {
   width: 100%;
@@ -142,7 +140,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
-  color: #0c0c0c;
+  color: var(--color-main);
 }
 @media (min-width: 768px) {
   .form-textarea {
@@ -153,7 +151,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
-  color: #0c0c0c;
+  color: var(--color-main);
 }
 @media (min-width: 768px) {
   .form-textarea {
@@ -169,10 +167,10 @@
 
 .form-textarea:checked,
 .form-textarea:focus {
-  border: 1px solid #3350e9;
+  border: 1px solid var(--color-accent);
 }
 .contact-button {
-  background-color: #3350e9;
+  background-color: var(--color-accent);
   border-radius: 30px;
   border-radius: 16px;
   padding: 12px 50px;
@@ -193,5 +191,5 @@
 }
 .contact-button:hover,
 .contact-button:focus {
-  background-color: #1f3cd4;
+  background-color: var(--color-active);
 }
