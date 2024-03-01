@@ -36,10 +36,10 @@
 }
 
 .catalog-item {
-  border: 1px solid rgba(12, 12, 12, 0.05);
+  border: 1px solid #0c0c0c0d;
   border-radius: 30px;
   width: 100%;
-  background: #f3f3f3;
+  background: var(--color-cards);
   padding: 40px 28px 22px;
 }
 
@@ -93,19 +93,20 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.5);
+  color: #0c0c0c80;
 }
 
 .catalog-btn {
   border-radius: 16px;
+  border: none;
   width: 160px;
   height: 48px;
-  background: #3350e9;
+  background: var(--color-accent);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
   text-align: center;
-  color: #fbfbfb;
+  color: var(--color-background);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,5 +121,5 @@
 
 .catalog-btn:hover,
 .catalog-btn:focus {
-  background: #1f3cd4;
+  background: var(--color-active);
 }
