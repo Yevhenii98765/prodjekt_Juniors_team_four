@@ -113,7 +113,7 @@ footer {
     fill:  var(--color-cards);
 }
 
-.footer-svg:hover {
+.footer-type-list_style .footer-svg:hover {
     fill: var(--color-background);
 }
 
