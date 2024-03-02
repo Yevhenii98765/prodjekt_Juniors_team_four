@@ -171,7 +171,6 @@
 }
 .contact-button {
   background-color: var(--color-accent);
-  border-radius: 30px;
   border-radius: 16px;
   padding: 12px 50px;
   min-width: 134px;
@@ -192,4 +191,10 @@
 .contact-button:hover,
 .contact-button:focus {
   background-color: var(--color-active);
+}
+.form-textarea:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+.input-common:not(:placeholder-shown):invalid {
+  border-color: red;
 }
