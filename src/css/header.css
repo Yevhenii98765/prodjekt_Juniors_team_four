@@ -95,11 +95,15 @@ header {
 .a-team:hover .svg-team {
   stroke: var(--color-accent);
   fill: var(--color-accent);
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .a-team:focus .svg-team {
   fill: var(--color-accent);
   fill: var(--color-accent);
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /* Mobile Header */

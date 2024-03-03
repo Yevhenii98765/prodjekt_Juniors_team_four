@@ -114,11 +114,15 @@ footer {
 }
 
 .footer-type-list_style .footer-svg:hover {
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     fill: var(--color-accent);
 }
 
 .footer-type-list_style .footer-svg:focus {
     fill: var(--color-accent);
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .right-footer {

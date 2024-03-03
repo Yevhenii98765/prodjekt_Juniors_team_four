@@ -101,6 +101,8 @@
 .to-contact-scroll-btn:focus {
   color: var(--color-main);
   background: var(--color-background);
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 @media screen and (min-width: 1280px) {
