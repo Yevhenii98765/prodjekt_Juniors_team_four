@@ -90,6 +90,17 @@ header {
 .svg-team {
   stroke: #0c0c0c;
 }
+
+.a-team:hover .svg-team {
+  stroke: var(--color-accent);
+  fill: var(--color-accent);
+}
+
+.a-team:focus .svg-team {
+  fill: var(--color-accent);
+  fill: var(--color-accent);
+}
+
 /* Mobile Header */
 @media (max-width: 767px) {
   header {
@@ -346,6 +357,15 @@ header {
     width: 36px;
     height: 36px;
   }
+
+ .a-team:hover .svg-team {
+      fill: var(--color-accent);
+  }
+
+ .a-team:focus .svg-team {
+      fill: var(--color-accent);
+    }
+
   .a-team-burger {
     padding: 8px;
     width: 36px;
