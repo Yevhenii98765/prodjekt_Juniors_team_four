@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .burger-button {
   display: none;
 }
