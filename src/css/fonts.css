@@ -6,8 +6,9 @@
     url('../fonts/Gilroy-Regular.woff2') format('woff2'),
     url('../fonts/Gilroy-Regular.woff') format('woff'),
     url('../fonts/Gilroy-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -20,6 +21,7 @@
     url('../fonts/Gilroy-Semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -32,6 +34,7 @@
     url('../fonts/Gilroy-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Gilroy';
@@ -43,4 +46,5 @@
     url('../fonts/Gilroy-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
