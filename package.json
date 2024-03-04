@@ -9,13 +9,15 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "glob": "^8.1.0",
     "vite": "^4.5.2",
-    "glob": "^8.1.0"
+    "vite-plugin-critical-css": "^0.1.1-alpha.0"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html": "^3.2.2",
     "vite-plugin-html-inject": "^1.0.1"
   }
 }

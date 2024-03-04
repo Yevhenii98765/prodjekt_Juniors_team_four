@@ -2,6 +2,8 @@ import { defineConfig } from 'vite';
 import glob from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
+import { createHtmlPlugin } from 'vite-plugin-html';
+import ViteCriticalCSS from 'vite-plugin-critical-css';
 
 export default defineConfig(({ command }) => {
   return {
@@ -25,6 +27,14 @@ export default defineConfig(({ command }) => {
       },
       outDir: '../dist',
     },
-    plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
+    plugins: [injectHTML(), FullReload(['./src/**/**.html']),
+    ViteCriticalCSS({
+      criticalKey: 'critical', // отримання критичного CSS
+    }),
+    createHtmlPlugin({
+      minify: true, // Включіть мініфікацію HTML
+    }),
+  
+  ],
   };
 });
